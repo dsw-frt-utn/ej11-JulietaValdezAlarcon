@@ -1,4 +1,4 @@
-﻿namespace Dsw2026Ej11.Tests;
+namespace Dsw2026Ej11.Tests;
 using Dsw2026Ej11.Collections;
 using Dsw2026Ej11.Domain;
 internal class Ejemplos
@@ -64,13 +64,5 @@ internal class Ejemplos
         linq.GetMayorPromedio().ForEach(l => Console.WriteLine(l.Titulo));
         Console.WriteLine("\n=== Ordenados por título descendente ===");
         linq.GetOrdenadosPorTituloDesc().ForEach(l => Console.WriteLine(l.Titulo));
-    }
-}
-    }
-
-    
-    public static void EjemploLinq()
-    {
-
     }
 }
